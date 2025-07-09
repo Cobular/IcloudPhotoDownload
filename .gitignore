@@ -30,3 +30,5 @@ Thumbs.db
 *.heic
 *.mov
 *.mp4
+
+examples/

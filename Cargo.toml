@@ -1,7 +1,10 @@
 [package]
-name = "IcloudPhotoDownload"
+name = "IcloudWebAlbumDownload"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/Cobular/IcloudPhotoDownload.git"
+description = "A tool to download photos from iCloud shared web albums"
+homepage = "https://github.com/Cobular/IcloudPhotoDownload"
 
 [dependencies]
 serde = { version = "1.0.219", features = ["derive"] }
@@ -13,3 +16,8 @@ anyhow = "1.0"
 indicatif = "0.17"
 regex = "1.10"
 futures = "0.3"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

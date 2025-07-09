@@ -1,10 +1,10 @@
 [package]
-name = "IcloudWebAlbumDownload"
+name = "icloud-web-album-download"
 version = "0.1.0"
 edition = "2021"
-repository = "https://github.com/Cobular/IcloudPhotoDownload.git"
+repository = "https://github.com/Cobular/icloud-web-album-download.git"
 description = "A tool to download photos from iCloud shared web albums"
-homepage = "https://github.com/Cobular/IcloudPhotoDownload"
+homepage = "https://github.com/Cobular/icloud-web-album-download"
 
 [dependencies]
 serde = { version = "1.0.219", features = ["derive"] }

@@ -1,6 +1,6 @@
 [package]
 name = "icloud-web-album-download"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2021"
 repository = "https://github.com/Cobular/icloud-web-album-download.git"
 description = "A tool to download photos from iCloud shared web albums"
